@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     const consultarAPI = async () => {
-      const url = `https://newsapi.org/v2/top-headlines?country=mx&category=${categoria}&apiKey=b4ebddf3d3b94faaa65b31367e32a081`;
+      const url = `https://newsapi.org/v2/top-headlines?country=mx&category=${categoria}&apiKey=APIKEY`;
       const respuesta = await fetch(url);
       const noticias = await respuesta.json();
 
